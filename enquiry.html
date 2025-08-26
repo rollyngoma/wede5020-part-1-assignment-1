@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Meta information for the webpage -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Enquiry - SkillNest</title>
+    <meta name="description" content="Enquire about SkillNest courses. Get information about our practical skills courses and start your learning journey.">
+</head>
+<body>
+    <!-- Header section containing the main navigation -->
+    <header>
+        <nav>
+            <!-- Main navigation menu linking all pages -->
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="courses.html">Courses</a></li>
+                <li><a href="enquiry.html">Enquiry</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Main content area of the enquiry page -->
+    <main>
+        <!-- Page heading section -->
+        <section>
+            <h1>Course Enquiry</h1>
+            <p>Get more information about our courses and start your learning journey</p>
+        </section>
+
+        <!-- Enquiry form section -->
+        <section>
+            <h2>Enquire About Our Courses</h2>
+            <p>Fill out the form below to receive more information about our courses, pricing, and how to get started. We'll get back to you within 24 hours.</p>
+            
+            <!-- Course enquiry form -->
+            <form action="#" method="post">
+                <!-- Personal information section -->
+                <fieldset>
+                    <legend>Personal Information</legend>
+                    
+                    <label for="firstname">First Name:</label>
+                    <input type="text" id="firstname" name="firstname" required>
+                    
+                    <label for="lastname">Last Name:</label>
+                    <input type="text" id="lastname" name="lastname" required>
+                    
+                    <label for="email">Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="phone">Phone Number:</label>
+                    <input type="tel" id="phone" name="phone">
+                </fieldset>
+
+                <!-- Course interest section -->
+                <fieldset>
+                    <legend>Course Interest</legend>
+                    
+                    <label for="course">Which course are you interested in?</label>
+                    <select id="course" name="course" required>
+                        <option value="">Please select a course</option>
+                        <option value="sewing">Basic Sewing Skills</option>
+                        <option value="cooking">Home Cooking Basics</option>
+                        <option value="firstaid">First Aid at Home</option>
+                        <option value="childcare">Child Care Essentials</option>
+                        <option value="computer">Basic Computer Skills</option>
+                        <option value="multiple">Multiple courses</option>
+                        <option value="notsure">Not sure yet</option>
+                    </select>
+                    
+                    <label for="experience">What is your current experience level?</label>
+                    <select id="experience" name="experience" required>
+                        <option value="">Please select your experience level</option>
+                        <option value="beginner">Complete beginner</option>
+                        <option value="some">Some experience</option>
+                        <option value="intermediate">Intermediate</option>
+                        <option value="advanced">Advanced</option>
+                    </select>
+                </fieldset>
+
+                <!-- Additional information section -->
+                <fieldset>
+                    <legend>Additional Information</legend>
+                    
+                    <label for="goals">What are your learning goals?</label>
+                    <textarea id="goals" name="goals" rows="4" placeholder="Tell us what you hope to achieve with this course..."></textarea>
+                    
+                    <label for="timeline">When would you like to start?</label>
+                    <select id="timeline" name="timeline">
+                        <option value="">Please select a timeline</option>
+                        <option value="immediately">Immediately</option>
+                        <option value="withinmonth">Within a month</option>
+                        <option value="within3months">Within 3 months</option>
+                        <option value="later">Later</option>
+                    </select>
+                    
+                    <label for="hearabout">How did you hear about SkillNest?</label>
+                    <select id="hearabout" name="hearabout">
+                        <option value="">Please select an option</option>
+                        <option value="socialmedia">Social Media</option>
+                        <option value="friend">Friend or Family</option>
+                        <option value="search">Internet Search</option>
+                        <option value="advertisement">Advertisement</option>
+                        <option value="other">Other</option>
+                    </select>
+                </fieldset>
+
+                <!-- Contact preferences section -->
+                <fieldset>
+                    <legend>Contact Preferences</legend>
+                    
+                    <label for="contactmethod">Preferred contact method:</label>
+                    <select id="contactmethod" name="contactmethod" required>
+                        <option value="">Please select preferred contact method</option>
+                        <option value="email">Email</option>
+                        <option value="phone">Phone</option>
+                        <option value="whatsapp">WhatsApp</option>
+                    </select>
+                    
+                    <label for="newsletter">
+                        <input type="checkbox" id="newsletter" name="newsletter" value="yes">
+                        I would like to receive updates about new courses and learning tips
+                    </label>
+                </fieldset>
+
+                <!-- Submit button -->
+                <button type="submit">Submit Enquiry</button>
+            </form>
+        </section>
+
+        <!-- Additional information section -->
+        <section>
+            <h2>What Happens Next?</h2>
+            <ol>
+                <li><strong>Submit your enquiry</strong> - Fill out the form above with your details</li>
+                <li><strong>We'll contact you</strong> - Within 24 hours, we'll reach out with course details</li>
+                <li><strong>Get started</strong> - Choose your course and begin your learning journey</li>
+                <li><strong>Track your progress</strong> - Complete lessons and earn your certificate</li>
+            </ol>
+        </section>
+
+        <!-- FAQ section -->
+        <section>
+            <h2>Frequently Asked Questions</h2>
+            
+            <div>
+                <h3>How much do the courses cost?</h3>
+                <p>Course pricing varies by course. Contact us for current pricing and any available discounts.</p>
+            </div>
+            
+            <div>
+                <h3>Do I need any special equipment?</h3>
+                <p>Most courses require basic household items. We'll provide a complete list when you enquire.</p>
+            </div>
+            
+            <div>
+                <h3>How long do I have access to the courses?</h3>
+                <p>You have lifetime access to all course materials once you enroll.</p>
+            </div>
+            
+            <div>
+                <h3>Can I learn on my smartphone?</h3>
+                <p>Yes! All our courses are designed to work perfectly on mobile devices.</p>
+            </div>
+        </section>
+
+        <!-- Call to action section -->
+        <section>
+            <h2>Ready to Get Started?</h2>
+            <p>Don't wait to start building your skills. Submit your enquiry today and take the first step toward your future.</p>
+            <a href="contact.html">Contact Us Directly</a>
+        </section>
+    </main>
+
+    <!-- Footer section with additional links and information -->
+    <footer>
+        <p>&copy; 2024 SkillNest. Empowering learners to build their future from home.</p>
+        <p>Contact us: <a href="contact.html">Get in Touch</a></p>
+    </footer>
+</body>
+</html>
