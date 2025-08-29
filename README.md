@@ -42,11 +42,35 @@ wede5020-part-1/
 ├── contact.html            # Contact page
 ├── SkillNest_Project_Proposal.md  # Project proposal
 ├── README.md               # This file
-├── css/                    # CSS stylesheets (empty for Part 1)
-├── js/                     # JavaScript files (empty for Part 1)
-└── images/                 # Image assets
-    └── placeholder.txt     # Placeholder for future images
+├── css/                    # CSS stylesheets (Part 2)
+│   └── style.css
+├── js/                     # JavaScript files (empty for Part 2)
+└── images/                 # Image assets (placeholders)
+    ├── logo.png
+    ├── hero.jpg
+    ├── sewing.jpg
+    ├── cooking.jpg
+    ├── firstaid.jpg
+    ├── childcare.jpg
+    ├── mission.jpg
+    ├── enquiry.jpg
+    ├── map.png
+    ├── screenshot-desktop.png
+    ├── screenshot-tablet.png
+    └── screenshot-mobile.png
 ```
+
+## Images and Logo
+- Logo: `images/logo.png` (header on every page)
+- Homepage hero: `images/hero.jpg`
+- Courses: `sewing.jpg`, `cooking.jpg`, `firstaid.jpg`, `childcare.jpg`
+- About: `mission.jpg`
+- Enquiry: `enquiry.jpg`
+- Contact: `map.png`
+
+Notes:
+- Pinterest was used for visual inspiration. For final submission, use your own photos or images with a free/Creative Commons license (e.g., Unsplash, Pexels, Pixabay). Always attribute when required.
+- All images include descriptive alt text for accessibility.
 
 ## Timeline
 - **Phase 1:** Foundation (Weeks 1-2) - HTML structure and content
@@ -62,6 +86,14 @@ wede5020-part-1/
 - Created project proposal document
 - Established folder structure
 
+### Version 1.1.0 (Part 2 – Visuals and Images)
+- Added and linked external stylesheet (`css/style.css`)
+- Implemented base styles and responsive images (max-width: 100%)
+- Inserted logo in header across all pages
+- Added hero and page images with descriptive alt text
+- Inserted Pinterest suggestion comments to guide image selection
+- Created image placeholders in `images/`
+
 ## References
 Clark, R.C. and Mayer, R.E. (2016) *E-learning and the science of instruction: Proven guidelines for consumers and designers of multimedia learning*. 4th edn. San Francisco: Pfeiffer.
 
@@ -71,4 +103,4 @@ UNESCO (2020) *Education for sustainable development: A roadmap*. Paris: UNESCO 
 
 ---
 
-**Note:** Part 1 focuses on HTML foundation. CSS styling and JavaScript functionality will be implemented in subsequent parts.
+**Note:** Part 2 focuses on HTML + CSS only. Images are placeholders and should be replaced with licensed images before final submission.
