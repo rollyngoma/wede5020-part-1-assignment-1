@@ -104,4 +104,5 @@ UNESCO (2020) *Education for sustainable development: A roadmap*. Paris: UNESCO 
 
 ---
 
-**Note:** Part 2 focuses on HTML + CSS only. Images are in place; replace with licensed images if needed for final submission.
+**Note (Part 1):** Focuses on HTML foundation only (semantic structure, 5 pages, navigation, basic content).  
+**Note (Part 2):** Focuses on HTML + CSS only. Images are in place; replace with licensed images if needed for final submission.
