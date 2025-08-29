@@ -45,7 +45,7 @@ wede5020-part-1/
 ├── css/                    # CSS stylesheets (Part 2)
 │   └── style.css
 ├── js/                     # JavaScript files (empty for Part 2)
-└── images/                 # Image assets (placeholders)
+└── images/                 # Image assets (now using real images)
     ├── logo.png
     ├── hero.jpg
     ├── sewing.jpg
@@ -66,10 +66,11 @@ wede5020-part-1/
 - Courses: `sewing.jpg`, `cooking.jpg`, `firstaid.jpg`, `childcare.jpg`
 - About: `mission.jpg`
 - Enquiry: `enquiry.jpg`
-- Contact: `map.png`
+- Contact: `map.png` (displayed smaller with responsive max-width)
 
 Notes:
-- Pinterest was used for visual inspiration. For final submission, use your own photos or images with a free/Creative Commons license (e.g., Unsplash, Pexels, Pixabay). Always attribute when required.
+- Images are real assets provided for the project. Replace with licensed images if required by your institution.
+- Pinterest was used for inspiration only. For final submission, use your own photos or free/Creative Commons images (Unsplash, Pexels, Pixabay) and add attribution if needed.
 - All images include descriptive alt text for accessibility.
 
 ## Timeline
@@ -90,9 +91,9 @@ Notes:
 - Added and linked external stylesheet (`css/style.css`)
 - Implemented base styles and responsive images (max-width: 100%)
 - Inserted logo in header across all pages
-- Added hero and page images with descriptive alt text
-- Inserted Pinterest suggestion comments to guide image selection
-- Created image placeholders in `images/`
+- Added hero and page images with descriptive alt text and guidance comments
+- Normalized image filenames and paths; removed extra image folder
+- Adjusted Contact page map image to display smaller (responsive max-width)
 
 ## References
 Clark, R.C. and Mayer, R.E. (2016) *E-learning and the science of instruction: Proven guidelines for consumers and designers of multimedia learning*. 4th edn. San Francisco: Pfeiffer.
@@ -103,4 +104,4 @@ UNESCO (2020) *Education for sustainable development: A roadmap*. Paris: UNESCO 
 
 ---
 
-**Note:** Part 2 focuses on HTML + CSS only. Images are placeholders and should be replaced with licensed images before final submission.
+**Note:** Part 2 focuses on HTML + CSS only. Images are in place; replace with licensed images if needed for final submission.
