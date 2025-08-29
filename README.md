@@ -4,7 +4,7 @@
 **Student Name:** Rolly Ngoma  
 **Student Number:** ST10495178  
 **Course:** Web Development (WEDE5020/p/w)  
-**Part:** 2 - Designing the Visuals
+**Part:** 1 - Building the Foundation; 2 - Designing the Visuals
 
 ## Project Overview
 
