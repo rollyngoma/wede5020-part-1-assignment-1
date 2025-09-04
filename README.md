@@ -4,7 +4,7 @@
 **Student Name:** Rolly Ngoma  
 **Student Number:** ST10495178  
 **Course:** Web Development (WEDE5020/p/w)  
-**Part:** 1 - Building the Foundation
+**Part:** 2 - Designing the Visuals
 
 ## Project Overview
 
@@ -16,34 +16,51 @@ SkillNest is an educational platform for stay-at-home learners to gain practical
 - Support economic empowerment through skill acquisition
 - Keep the design simple and easy to navigate
 
-## Key Features (Part 1)
+## Key Features
+### Part 1 - Building the Foundation
 - 5 HTML pages with semantic structure (`header`, `nav`, `main`, `footer`)
 - Simple navigation linking all pages
 - Clear, student-friendly content (no lorem ipsum)
 
+### Part 2 - Designing the Visuals
+- External CSS stylesheet (`css/style.css`) linked to all pages
+- Responsive design with media queries for desktop, tablet, and mobile
+- Navigation using Flexbox, course sections using Grid
+- Images and logo integrated throughout the site
+- Hover effects and visual enhancements
+
 ## Sitemap
 ```
-Homepage (index.html) - Main landing page with course previews
-About Us (about.html) - Mission, values, and target audience
-Courses (courses.html) - Course descriptions
-Enquiry (enquiry.html) - Course enquiry form (HTML only)
-Contact (contact.html) - Contact information and simple form (HTML only)
+Homepage (index.html) - Main landing page with hero image and course previews
+About Us (about.html) - Mission, values, and target audience with mission image
+Courses (courses.html) - Course descriptions with individual course images
+Enquiry (enquiry.html) - Course enquiry form with contact illustration
+Contact (contact.html) - Contact information and map image
 ```
 
-## File Structure (Submission - Part 1)
+## File Structure (Part 2 - Complete)
 ```
 wede5020-part-1/
-├── index.html              # Homepage
-├── about.html              # About Us page
-├── courses.html            # Courses page
-├── enquiry.html            # Course enquiry page
-├── contact.html            # Contact page
+├── index.html              # Homepage with CSS and images
+├── about.html              # About Us page with CSS and images
+├── courses.html            # Courses page with CSS and images
+├── enquiry.html            # Course enquiry page with CSS and images
+├── contact.html            # Contact page with CSS and images
 ├── SkillNest_Project_Proposal.md  # Project proposal
 ├── README.md               # This file
-├── css/                    # (reserved for Part 2 styling; empty in Part 1)
+├── css/
+│   └── style.css           # External stylesheet with responsive design
 ├── js/                     # (reserved for future use; empty)
-└── images/                 # Assets folder
-    └── placeholder.txt     # Placeholder note only for Part 1
+└── images/                 # Assets folder with images
+    ├── logo.png            # SkillNest logo
+    ├── hero.jpg            # Homepage hero image
+    ├── mission.jpg         # About page mission image
+    ├── sewing.jpg          # Sewing course image
+    ├── cooking.jpg         # Cooking course image
+    ├── firstaid.jpg        # First aid course image
+    ├── childcare.jpg       # Childcare course image
+    ├── enquiry.jpg         # Enquiry page illustration
+    └── map.png             # Contact page map image
 ```
 
 ## Changelog
@@ -54,6 +71,18 @@ wede5020-part-1/
 - Created project proposal document
 - Established basic folder structure
 
+### Version 2.0.0 (Part 2 – Designing the Visuals)
+- Created external stylesheet (`css/style.css`)
+- Linked stylesheet to all 5 HTML pages
+- Added base styles (font family, colors, padding/margins)
+- Implemented responsive design with media queries for desktop, tablet, and mobile
+- Added navigation styling using Flexbox
+- Added course section styling using Grid
+- Integrated images and logo throughout the site
+- Added hover effects for links and buttons
+- Styled footer with centered text and light background
+- Made all images responsive with proper alt text
+
 ## References
 Clark, R.C. and Mayer, R.E. (2016) *E-learning and the science of instruction: Proven guidelines for consumers and designers of multimedia learning*. 4th edn. San Francisco: Pfeiffer.
 
@@ -63,4 +92,4 @@ UNESCO (2020) *Education for sustainable development: A roadmap*. Paris: UNESCO 
 
 ---
 
-Note: This submission includes Part 1 only (HTML structure and content). Styling and images will be submitted with Part 2.
+**Note:** Part 2 focuses on HTML + CSS only. Images are in place; replace with licensed images if needed for final submission.
