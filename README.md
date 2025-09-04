@@ -3,7 +3,8 @@
 ## Student Information
 **Student Name:** Rolly Ngoma  
 **Student Number:** ST10495178  
-**Course:** Web Development (WEDE5020/p/w)  
+**Course:** Web Development (WEDE5020/p/w) 
+**Part:** 1 - Building the Foundation 
 **Part:** 2 - Designing the Visuals
 
 ## Project Overview
@@ -63,6 +64,17 @@ wede5020-part-1/
     └── map.png             # Contact page map image
 ```
 
+## Screenshots
+Add screenshots to demonstrate responsiveness.
+
+- Desktop view
+- Tablet view
+- Mobile view
+
+![Desktop screenshot](images/screenshot-desktop.png)
+![Tablet screenshot](images/screenshot-tablet.png)
+![Mobile screenshot](images/screenshot-mobile.png)
+
 ## Changelog
 ### Version 1.0.0 (Part 1 – Initial Setup)
 - Created all 5 HTML pages with semantic structure
@@ -92,4 +104,6 @@ UNESCO (2020) *Education for sustainable development: A roadmap*. Paris: UNESCO 
 
 ---
 
-**Note:** Part 2 focuses on HTML + CSS only. Images are in place; replace with licensed images if needed for final submission.
+**Notes:**
+- Part 1 covers HTML structure and content only (no CSS).
+- Part 2 covers visuals (external CSS, responsive design, images).
