@@ -71,9 +71,9 @@ Add screenshots to demonstrate responsiveness.
 - Tablet view
 - Mobile view
 
-![Desktop screenshot](images/screenshot-desktop.png)
-![Tablet screenshot](images/screenshot-tablet.png)
-![Mobile screenshot](images/screenshot-mobile.png)
+![Desktop screenshot](images:desktop.png)
+![Tablet screenshot](images:tablet.png)
+![Mobile screenshot](images:mobile.jpeg)
 
 ## Changelog
 ### Version 1.0.0 (Part 1 – Initial Setup)
