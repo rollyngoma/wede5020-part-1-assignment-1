@@ -73,7 +73,7 @@ Add screenshots to demonstrate responsiveness.
 
 ![Desktop screenshot](https://github.com/rollyngoma/wede5020-part-1-assignment-1/blob/7ad5e88db16fc44ab60cc5478ba19d5354eb3c2c/images%3Adesktop.png)
 ![Tablet screenshot](https://github.com/rollyngoma/wede5020-part-1-assignment-1/blob/7ad5e88db16fc44ab60cc5478ba19d5354eb3c2c/images%3Atablet.png)
-![Mobile screenshot](images:desktop.png)
+![Mobile screenshot](https://github.com/rollyngoma/wede5020-part-1-assignment-1/blob/78be5281035d895326e9f87cdeda0e81b886eea5/images%3Amobile.png)
 
 ## Changelog
 ### Version 1.0.0 (Part 1 – Initial Setup)
